@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-LEVEL-3</title>
+</head>
+<body>
+    <form action="/server">
+    <input type="checkbox" id="age" name="age" >   <!--by Default Checked . then use CHECKED-->   
+    <label for="age">i am 18+</label>
+    <div>
+        <!-- radio input.. one time single option Ticks -->
+        <input type="radio" id="Fruit" name="fruit" value="Apple">  <!--value = run the code with Ticks The value jo check hua value hi ayega-->
+        <label for="apple">Apple</label>
+        <input type="radio" id="Fruit" name="fruit" value="Mango">
+        <label for="Mango">Mango</label>
+        <input type="radio" id="Fruit" name="fruit" value="Banana">
+        <label for="banana">Banana</label>
+    </div>
+    <div>
+        Choose your subjects:    <!--Check Box .. Here Multiple Option Ticks-->
+        <input type="checkbox" id="math" name="subjects" value="math">
+        <label for="math">Math</label>
+        <input type="checkbox" id="Science" name="subjects" value="Science">
+        <label for="Science">Science</label>
+        <input type="checkbox" id="English" name="subjects" value="English">
+        <label for="English">English</label>
+    </div>
+    <div>
+        Choose your profession:   <!--Select Input .. Here DropDown select the Option-->
+        <select name="profession" id="profession">
+            <option>Select your option</option>
+            <option value="Student">Student</option>
+            <option value="Worker">Worker</option>
+            <option value="Devloper">Devloper</option>
+        </select>
+    </div>
+    <div>   <!--Range input.. volume  check-->
+        <lebel for="vol">Volume Level</lebel>
+        <input type="range" id="vol" min="0" max="100" name="Volume">
+    </div>
+
+    <br>
+    <!-- Text Area .. using Feedback -->
+    <label for="feedback"> Please Give Your Valable Feedback:</label>
+    <textarea id="Feedback"></textarea>
+    <button>SUBMIT</button>
+    </form>
+</body>
+</html>
